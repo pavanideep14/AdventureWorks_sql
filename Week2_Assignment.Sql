@@ -1,3 +1,7 @@
+--HackerRank Profile https://www.hackerrank.com/profile/pavaniideep14
+
+
+
 USE AdventureWorks2022;
 GO
 --STORED PROCEDURES
@@ -105,7 +109,7 @@ BEGIN
         WHERE SalesOrderDetailID = @SalesOrderDetailID
     )
     BEGIN
-        PRINT 'Invalid parameters – record not found.';
+        PRINT 'Invalid parameters â€“ record not found.';
         RETURN;
     END
 
@@ -276,7 +280,7 @@ BEGIN
 
     IF @TotalStock IS NULL SET @TotalStock = 0;
 
-    -- Debug messages to help you trace what’s wrong
+    -- Debug messages to help you trace whatâ€™s wrong
     PRINT 'DEBUG: ProductID = ' + CAST(@ProductID AS VARCHAR);
     PRINT 'DEBUG: OrderQty = ' + CAST(@OrderQty AS VARCHAR);
     PRINT 'DEBUG: TotalStock = ' + CAST(@TotalStock AS VARCHAR);
