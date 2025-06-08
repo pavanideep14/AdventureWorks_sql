@@ -1,4 +1,7 @@
-﻿USE LevelCTaskDB;
+--HackerRank Profile https://www.hackerrank.com/profile/pavaniideep14
+
+
+USE LevelCTaskDB;
 -- ========================================
 -- Level C SQL Tasks
 -- SUBMITTED BY: PAVANI DEEP
